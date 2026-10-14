@@ -5,3 +5,8 @@ button {
     border: none;
     border-radius: 7px;
 }
+
+p {
+    color: red;
+    font-size: 50px;
+}
