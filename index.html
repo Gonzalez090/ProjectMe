@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWeb</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-
 <body>
+
+    <button id="btn">Submit</button>
+    <button id="btn1">Submit</button>
+    <p id="text">Hi</p>
+    <p id="text2">Hi</p>
+
+    <script>
+        const text = document.getElementById('text');
+        const btn = document.getElementById('btn');
+        const text1 = document.getElementById('text1');
+        const btn1 = document.getElementById('btn1');
+
+        function runClick (){
+            text.style.backgroundColor = 'blue',
+            text2.style.color = 'green'
+        }
+
+        btn.onclick = runClick;
+
+        btn1.addEventListener('click', runClick)
+    </script>
     
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
-
 </body>
-
 </html>
